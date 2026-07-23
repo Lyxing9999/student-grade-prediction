@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Generated models and outputs
+outputs/models/*.joblib
+outputs/models/*.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
