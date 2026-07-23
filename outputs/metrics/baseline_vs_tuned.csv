@@ -1,0 +1,5 @@
+model,accuracy_baseline,macro_f1_baseline,accuracy_tuned,macro_f1_tuned,macro_f1_improvement
+Logistic Regression,0.6958,0.4496,0.6442,0.4535,0.0039000000000000146
+Decision Tree,0.6089,0.396,0.646,0.4503,0.05429999999999996
+Random Forest,0.6926,0.4479,0.6325,0.4552,0.007299999999999973
+AdaBoost,0.6804,0.42,0.6387,0.4496,0.029600000000000015
