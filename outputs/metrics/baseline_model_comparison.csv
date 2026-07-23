@@ -1,0 +1,5 @@
+model,train_accuracy,test_accuracy,macro_precision,macro_recall,macro_f1,training_time_seconds,train_test_gap
+Logistic Regression,0.6958,0.6958,0.4685,0.4374,0.4496,2.77,0.0
+Random Forest,0.737,0.6926,0.4642,0.4371,0.4479,3.69,0.044399999999999995
+AdaBoost,0.6803,0.6804,0.4631,0.4348,0.42,65.67,-9.999999999998899e-05
+Decision Tree,0.9594,0.6089,0.3979,0.3942,0.396,2.53,0.35050000000000003
