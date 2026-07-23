@@ -1,18 +1,13 @@
-from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 
 def create_logistic_regression() -> Pipeline:
-    """Create the baseline Logistic Regression pipeline."""
+    """Create a Logistic Regression classification pipeline."""
 
     return Pipeline(
         steps=[
-            (
-                "imputer",
-                SimpleImputer(strategy="median"),
-            ),
             (
                 "scaler",
                 StandardScaler(),
@@ -20,7 +15,7 @@ def create_logistic_regression() -> Pipeline:
             (
                 "model",
                 LogisticRegression(
-                    max_iter=2000,
+                    max_iter=3000,
                     random_state=42,
                 ),
             ),
