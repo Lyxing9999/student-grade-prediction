@@ -1,0 +1,5 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,f_recall,fit_time_seconds
+Random Forest,0.6325,0.4411,0.5535,0.4552,0.66,7.39
+Logistic Regression,0.6442,0.438,0.5573,0.4535,0.72,3.07
+Decision Tree,0.646,0.4377,0.5571,0.4503,0.75,2.61
+AdaBoost,0.6387,0.4341,0.5539,0.4496,0.69,278.33
